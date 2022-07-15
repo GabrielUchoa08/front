@@ -158,7 +158,7 @@
     text-align: center;
 }
 .sessao-carrosel{
-    height: 800px;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -212,6 +212,87 @@
     padding-bottom: 10px;
     height: 100px;  
     font-family: 'Contrail one';
+}
+.custom{
+    width: 100%;
+    height: 700px;
+    background-color: #100D25;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titulo-custom{
+    width: 70%;
+    height: 80px;
+    background: rgba(217, 217, 217, 0.2);
+    mix-blend-mode: normal;
+    border-radius: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.titulo-custom h2{
+    color: white;
+    font-family: 'Contrail One';
+    font-size: 25px;
+}
+.custom-texto{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 20px;
+    color: white;
+    font-family: 'Contrail one';
+    flex-direction: column;
+}
+.custom-texto h2{
+    padding-bottom: 30px;
+}
+.custom-texto button{
+    background: white;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 60px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    align-self: center;
+}
+.custom-texto button:hover{
+    background: #D3D3D3;
+}
+.custom-imagem{
+    height: 577px;
+    width: 904px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/Vector\ 1.png);
+    background-repeat: no-repeat; 
+    background-size: cover, contain;
+}
+.depoimentos{
+    height: 700px;
+    background-color: #100D25;
+    display: flex;
+    text-align: center;
+    font-family: 'Contrail one';
+    color: white;
+    padding-left: 30%;
+    padding-top: 30px;
+}
+.depoimentos-titulos{
+    height: 30px;
+    width: 100px;
+    border: 2px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 70px;
+}
+.depoimento01{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 @media (max-width: 1000px){
     .nav-direita a{
