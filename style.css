@@ -273,26 +273,155 @@
     background-size: cover, contain;
 }
 .depoimentos{
-    height: 700px;
+    height: 1100px;
     background-color: #100D25;
     display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: 'Contrail one';
     color: white;
-    padding-left: 30%;
     padding-top: 30px;
 }
-.depoimentos-titulos{
+.depoimento-cima{
     height: 30px;
-    width: 100px;
+    padding: 10px 30px;
     border: 2px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 70px;
+    border-radius: 0px 70px 70px 0px;
+    border-left: none;
+    width: 40%;
+    height: 40px;
 }
-.depoimento01{
+.depoimento1{
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.txt-depoimento01{
+    height: 150px;
+    width: 35%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid #FFA500;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+.depoimento2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.txt-depoimento02{
+    height: 150px;
+    width: 35%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid #FFA500;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 15px 20px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+.depoimento3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.txt-depoimento3{
+    height: 150px;
+    width: 35%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid #FFA500;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 15px 20px;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+.contatos{
+    height: 800px;
+    width: 100%;
+    background-color: #100D25;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Contrail one';
+    color: white;
+    padding-top: 30px;
+}
+.forms{
+    height: 400px;
+    width: 400px;
+    background: #FFFFFF;
+    border: 0.65371px solid #DDDDDD;
+    box-shadow: 0px 8.49823px 12.4205px rgba(0, 0, 0, 0.07);
+    border-radius: 13.0742px;
+    margin-bottom: 15px;
+    color: #100D25;
+}
+.sessao-contatos{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.contatos-esquerda{
+    width: 50%;
+}
+.dados{
+    margin-top: 30px;
+}
+.contatos-direita{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.icons img{
+    margin-right: 10px;
+}
+
+.forms input{
+    width: 319px;
+    height: 35.84px;
+    background: #E9E6E6;
+    border: 1px solid #FFFFFF;
+    border-radius: 39px;   
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.forms button{
+    width: 94.79px;
+    height: 34.53px;
+    background: #252B42;
+    border-radius: 35px;
+    color: white;
+    border: none;
+    font-family: 'Contrail one';
+    cursor: pointer;
+}
+.forms textarea{
+    width: 319px;
+    height: 126.17px;
+    background: #E9E6E6;
+border: 0.65371px solid #FFFFFF;
+}
+.local{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer{
+    height: 40px;
+    background-color: #100D25;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
 }
 @media (max-width: 1000px){
     .nav-direita a{
