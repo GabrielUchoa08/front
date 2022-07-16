@@ -35,6 +35,9 @@
 .nav-direita a{
     margin-right: 50px;
 }
+.nav2{
+    display: none;
+}
 .inicio{
     width: 100%;
     height: 600px;
@@ -427,6 +430,9 @@ border: 0.65371px solid #FFFFFF;
     .nav-direita a{
         display: none;
     }
+    .nav{
+        width: 100%;
+    }
     .inicio-texto h1{
         font-size: 30px;
     }
@@ -434,6 +440,7 @@ border: 0.65371px solid #FFFFFF;
         margin-top: 20px;
     }
     .caixas{
+        max-width: 70%;
         flex-direction: column;
     }
     .caixa-padrao{
@@ -441,7 +448,170 @@ border: 0.65371px solid #FFFFFF;
         margin: 20px 5px;
         height: 340px;
     }
+    .caixa-padrao img{
+        margin-left: 30px;
+        margin-bottom: 10px
+    }
+    .sessao-carrosel{
+        width: 100%;
+    }
     .quem-somos{
         height: auto;
+    }
+    .sessao-contatos{
+        flex-direction: column;
+        height: auto;
+    }
+    .dados{
+        font-size: 10px;
+    }
+    .dados img{
+        height: 20px;
+        width: 15px;
+    }
+    .mapa iframe{
+        width: 90%;
+        height: 200px;
+    }
+    .dados{
+        margin-bottom: 30px;
+    }
+    .forms input{
+        height: 60px;
+        width: 80%;   
+    }
+    .forms{
+        height: 300px;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .titulo-quem-somos h2{
+        height: 30px;
+        margin-left: 0px;
+        font-size: 15px;
+        width: 80%;
+    }
+    .titulo-quem-somos{
+        padding-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+    }
+    .fundador{
+        padding-top: 0px;
+    }
+    .fundador h3{
+        font-size: 30px;
+    }
+    .fundador img{
+        height: 200px;
+        width: 200px;
+    }
+    .contatos-direita{
+        width: 100%;
+    }
+    .contatos-esquerda{
+        width: 100%;
+    }
+    .depoimentos{
+        height: 1800px;
+    }
+    .depoimento1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .txt-depoimento01{
+        width: 80%;
+        margin-left: 0px;
+    }
+    .txt-depoimento01 h2{
+        font-size: 25px;
+    }
+    .txt-depoimento01 p{
+        font-size: 17px;
+    }
+    .depoimento2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .txt-depoimento02{
+        width: 80%;
+        margin-left: 0px;
+    }
+    .txt-depoimento02 h2{
+        font-size: 25px;
+    }
+    .txt-depoimento02 p{
+        font-size: 17px;
+    }
+    .depoimento3{
+        flex-direction: column;
+        align-items: center;
+    }
+    .txt-depoimento3{
+        width: 80%;
+        margin-left: 0px;
+    }
+    .txt-depoimento3 h2{
+        font-size: 25px;
+    }
+    .txt-depoimento3 p{
+        font-size: 17px;
+    }
+    .footer-inicio h2{
+        font-size: 20px;
+    }
+    .inicio-texto{
+        margin: 0 auto;
+    }
+    .txt-fundador{
+        height: 200px;
+        width: 300px;
+        margin-left: 0;
+        left: 0;
+        top: 30px;
+    }
+    .footer-sobre{
+        margin-top: 100px;
+    }
+    .txt-fundador h3{
+        font-size: 15px;
+    }
+    .fundador{
+        height: 650px;
+    }
+    .footer-sobre h3{
+        font-size: 20px;
+    }
+    .fundador-info{
+       flex-direction: column;
+    }
+    .titulo-custom{
+        width: 310px;
+        margin-top: 10px;
+    }
+    .titulo-custom h2{
+        font-size: 15px;
+    }
+    .custom-imagem{
+        width: 350px;
+        background-size: 350px 400px;
+        background-position: center;
+    }
+    .custom-texto h1{
+        font-size: 40px;
+    }
+    .custom-texto h2{
+        font-size: 15px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+    .forms textarea{
+        height: 50px;
     }
 }
